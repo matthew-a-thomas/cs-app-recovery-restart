@@ -1,0 +1,4 @@
+ApplicationRecoveryFinished
+ApplicationRecoveryInProgress
+RegisterApplicationRecoveryCallback
+RegisterApplicationRestart
