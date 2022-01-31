@@ -9,3 +9,9 @@ https://docs.microsoft.com/en-us/windows/win32/recovery/application-recovery-and
 ## Caveats
 
 Windows Error Reporting will not trigger either your restart or your recovery callback unless the application has been running for at least 60 seconds.
+
+## Dump files
+
+You can combine this with some registry settings to gather mini (or full, or custom) dump files into the location of your choosing. That dump file will be available by the time ARR triggers your recovery or restart.
+
+https://docs.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps
